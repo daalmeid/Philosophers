@@ -6,26 +6,30 @@
 #    By: daalmeid <daalmeid@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/01 15:12:54 by daalmeid          #+#    #+#              #
-#    Updated: 2022/03/01 15:17:44 by daalmeid         ###   ########.fr        #
+#    Updated: 2022/03/14 13:40:11 by daalmeid         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= philosophers
+NAME	= philo
 
-SRCS	= philosophers.c ft_atoi.c
+SRCS	= main.c ft_atoi.c ft_putchar_fd.c ft_putstr_fd.c doom_clock.c\
+		  philo_actions.c prep_list_and_mutex.c ft_isdigit.c ft_strlen.c \
+		  ft_strncmp.c threads.c ft_putnbr_fd.c ft_perror.c ft_usleep.c
 
 OBJS	= *.o
 
-RM = rm -f
+RM 		= rm -f
 
-$(NAME): $(OBJS)
-	gcc -Wextra -Wall -Werror -pthread $(OBJS) -o $(NAME)
+FLAGS	= -Wextra -Wall -Werror
 
-$(OBJS):
-	gcc -Wall -Wextra -Werror -c $(SRCS)
-	
 all:	$(NAME)
 
+$(NAME): $(OBJS)
+	cc $(FLAGS) -pthread $(OBJS) -o $(NAME)
+
+$(OBJS):
+	cc $(FLAGS) -pthread -c $(SRCS)
+	
 clean:
 	$(RM) $(OBJS)
 
@@ -33,7 +37,3 @@ fclean:	clean
 	$(RM) $(NAME)
 
 re:		fclean all
-
-bonus: clean
-	gcc -Wall -Wextra -Werror -c $(SRCS_BONUS)
-	ar rc $(NAME) $(OBJS)
