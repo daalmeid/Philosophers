@@ -6,11 +6,11 @@
 /*   By: daalmeid <daalmeid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/04 17:02:22 by daalmeid          #+#    #+#             */
-/*   Updated: 2022/03/14 13:28:46 by daalmeid         ###   ########.fr       */
+/*   Updated: 2022/05/03 15:52:56 by daalmeid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philosophers.h"
+#include "../headers/philosophers.h"
 
 static void	full_routine(t_philos *list, int thread_nbr)
 {

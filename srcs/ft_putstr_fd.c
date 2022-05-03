@@ -6,12 +6,12 @@
 /*   By: daalmeid <daalmeid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/21 15:34:36 by daalmeid          #+#    #+#             */
-/*   Updated: 2022/03/03 16:00:22 by daalmeid         ###   ########.fr       */
+/*   Updated: 2022/05/03 16:04:23 by daalmeid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include "philosophers.h"
+#include "../headers/philosophers.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {

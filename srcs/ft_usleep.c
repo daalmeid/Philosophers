@@ -6,11 +6,11 @@
 /*   By: daalmeid <daalmeid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:35:36 by daalmeid          #+#    #+#             */
-/*   Updated: 2022/03/11 15:49:22 by daalmeid         ###   ########.fr       */
+/*   Updated: 2022/05/03 15:52:41 by daalmeid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philosophers.h"
+#include "../headers/philosophers.h"
 
 int	ft_usleep(int time_to_sleep, t_philos *list)
 {

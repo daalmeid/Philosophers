@@ -6,11 +6,11 @@
 /*   By: daalmeid <daalmeid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/04 12:28:40 by daalmeid          #+#    #+#             */
-/*   Updated: 2022/03/14 13:35:09 by daalmeid         ###   ########.fr       */
+/*   Updated: 2022/05/03 15:52:52 by daalmeid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philosophers.h"
+#include "../headers/philosophers.h"
 
 int	take_forks(t_philos *list, int i)
 {

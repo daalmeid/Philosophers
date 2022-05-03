@@ -6,11 +6,11 @@
 /*   By: daalmeid <daalmeid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/25 18:42:45 by daalmeid          #+#    #+#             */
-/*   Updated: 2022/03/10 14:13:09 by daalmeid         ###   ########.fr       */
+/*   Updated: 2022/05/03 15:52:45 by daalmeid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philosophers.h"
+#include "../headers/philosophers.h"
 
 static int	error_management(int ac, char **av)
 {

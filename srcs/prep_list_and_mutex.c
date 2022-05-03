@@ -6,11 +6,11 @@
 /*   By: daalmeid <daalmeid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/04 15:25:41 by daalmeid          #+#    #+#             */
-/*   Updated: 2022/03/10 14:17:08 by daalmeid         ###   ########.fr       */
+/*   Updated: 2022/05/03 15:52:48 by daalmeid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philosophers.h"
+#include "../headers/philosophers.h"
 
 int	prep_list(int ac, char **av, t_philos *list, pthread_t **tid)
 {

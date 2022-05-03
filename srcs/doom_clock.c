@@ -6,11 +6,11 @@
 /*   By: daalmeid <daalmeid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/04 15:21:40 by daalmeid          #+#    #+#             */
-/*   Updated: 2022/03/11 14:43:44 by daalmeid         ###   ########.fr       */
+/*   Updated: 2022/05/03 15:50:03 by daalmeid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philosophers.h"
+#include "../headers/philosophers.h"
 
 static void	mutex_destroyer(t_philos *list, int i, int err)
 {
