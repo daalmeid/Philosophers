@@ -52,5 +52,7 @@ After cloning the repository, cd into it and run **make**. After that, you can u
 ```
 ./philo [number_of_philosophers] [time_to_die] [time_to_eat] [time_to_sleep] [number_of_times_each_philosopher_must_eat (optional)]
 ```
-
+You can use the following visualizer to make the logs easily readable: https://nafuka11.github.io/philosophers-visualizer/. All credits to the
+GitHub user **nafuka11**. **NOTE:** For the sake of readability, I added a log that registers when a philosopher finished eating, which might give
+an error message in the visualizer but shouldn't affect the results.
 The time values must be given in milliseconds. Large numbers of philosophers might not work. Have fun!
